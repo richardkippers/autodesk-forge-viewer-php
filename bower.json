@@ -1,0 +1,13 @@
+{
+  "name": "autodesk-forge-viewer-php",
+  "homepage": "https://github.com/richardkippers/autodesk-forge-viewer-php",
+  "authors": [
+    "Richard Kippers <richardkippers@me.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
