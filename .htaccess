@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /
+
+# Redirect all requests to index.php ignoring listed files extensions
+RewriteCond %{REQUEST_URI} !\.(css|js|eot)$
+# Redirect all requests to index.php ignoring listed directories
+RewriteCond %{REQUEST_URI} !^/?(css|js|fonts|ect)/
+RewriteRule ^(.*)$ index.php [L,QSA]
